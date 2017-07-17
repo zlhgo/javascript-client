@@ -2,7 +2,7 @@
   "name": "coreapi",
   "version": "0.1.0",
   "description": "Javascript client library for Core API",
-  "main": "lib/index.js",
+  "main": "dist/coreapi.js",
   "scripts": {
     "build": "mkdir -p dist && browserify --standalone coreapi -d -t babelify lib/index.js -o dist/coreapi.js",
     "watch": "watchify --standalone coreapi -t babelify lib/index.js -o dist/coreapi.js -v",

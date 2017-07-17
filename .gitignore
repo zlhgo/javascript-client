@@ -10,8 +10,5 @@ coverage
 # Dependency directories
 /node_modules/
 
-# Build directory
-/dist/
-
 # Output of 'npm pack'
 *.tgz
